@@ -28,8 +28,8 @@ ELASTICSEARCH_USER=Elasticsearch user,\
 ELASTICSEARCH_PASSWORD=Elasticsearch password" \
     org.label-schema.build-date=$build_date
 
-ENV "GF_SECURITY_ADMIN_PASSWORD=admin" \
-    "PROMETHEUS_ENDPOINT=http://prometheus:9090" \
+ENV "GF_SECURITY_ADMIN_PASSWORD=admin" 
+ENV "PROMETHEUS_ENDPOINT=http://prometheus:9090" \
     "ELASTICSEARCH_ENDPOINT=http://elasticsearch:9200" \
     "ELASTICSEARCH_USER=readuser" \
     "ELASTICSEARCH_PASSWORD=myelasticpass"
